@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
 
 router.get('/good', function (req, res, next) {
   // console.log('헤더 setInterceptor:', req.headers.authorization)
-  res.json({ dog: 'mango', cat: 'dandi' })
+  res.json({ dog: 'mango1111', cat: 'dandi2222' })
 });
 
 module.exports = router;
